@@ -1,0 +1,23 @@
+{
+  "name": "my-money-backend",
+  "version": "1.0.0",
+  "main": "src/loader.js",
+  "scripts": {
+      "dev": "nodemon",
+      "production" : "pm2 start src/loader.js --name my-money-backend"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "ˆ1.15.2",
+    "express": "ˆ4.14.0",
+    "express-query-int": "ˆ1.0.1",
+    "lodash": "ˆ4.17.4",
+    "mongoose": "ˆ4.13.19",
+    "mongoose-paginate": "ˆ5.0.3",
+    "node-restful": "ˆ0.2.5",
+    "pm2": "ˆ2.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "ˆ1.11.0"
+  }
+}
