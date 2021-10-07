@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "main": "src/loader.js",
   "scripts": {
-      "dev": "nodemon",
-      "production" : "pm2 start src/loader.js --name my-money-backend"
+    "dev": "nodemon",
+    "production": "pm2 start src/loader.js --name my-money-backend"
   },
   "license": "MIT",
   "dependencies": {
+    "bcrypt": "5.0.0",
     "body-parser": "ˆ1.15.2",
     "express": "ˆ4.14.0",
     "express-query-int": "ˆ1.0.1",
+    "jsonwebtoken": "^7.3.0",
     "lodash": "ˆ4.17.4",
     "mongoose": "ˆ4.13.19",
     "mongoose-paginate": "ˆ5.0.3",
